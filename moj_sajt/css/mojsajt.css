@@ -1,0 +1,151 @@
+header img {
+	float: left;
+	margin-left: 1em;
+    }
+body {
+	  width: 1000px;
+	  margin: 0 auto;
+	}
+	header {
+	  background-color: #cc0000;
+	  height: 121px;
+	  width: 1000px;
+	  position: fixed;
+	  top: 0;
+	  z-index: 1;
+	}
+	nav {
+	  background-color: #cc0000;
+	  height: 60px;
+	  width: 1000px;
+	  position: fixed;
+	  top: 121px;
+	  z-index: 1;
+	}
+	main {
+	  padding-top: 181px;
+	  height: 1600px;
+	  }
+	section {
+	  width: 760px;
+	  background-color: white;
+	  float: left;
+	  box-sizing: border-box;
+	  height: 1600px;
+	  margin-left: 20px;
+	}
+	aside {
+	  width: 220px;
+	  background-color: white;
+	  float: right;
+	  box-sizing: border-box;
+	  height: 1600px;
+	}
+	footer {
+	  height: 70px;
+	  background-color: #2e2e1f;
+	  clear: both;
+	  position: fixed;
+      bottom: 0;
+      width: 1000px;
+	}
+	h1 {
+	  padding-top: 30px;
+	  padding-left: 20%;
+	  color: white;
+	  font-family: "Arial Black", Gadget, sans-serif;
+	}
+	nav ul li {
+	  display: inline;
+	}
+	nav ul li a {
+	  font-size: 1.1em;
+      text-decoration: none;
+	  font-weight: 900;
+      color:  white;
+	  padding: .5em;
+	  display: inline-block;
+	}   
+	li.changeBackground:hover {
+      background-color: #800000;
+	  font-family: "Arial Black", Gadget, sans-serif;
+	}
+	.dropdown {
+        position: relative;
+        display: inline-block;
+    }
+     .dropdown-content {
+        display: none;
+        position: absolute;
+		z-index: 1;
+		height: auto; 
+		background-color:  #800000;
+    }
+	.dropdown-content a {
+		font-size: .6em
+		color: #660000;
+		padding: .1em;
+		display: block;
+		text-decoration: underline;
+	}
+	.dropdown-content a:hover {
+		background-color: #f1f1f1;
+		color:  #330000;
+	}
+     .dropdown:hover .dropdown-content {
+           display: block;
+    }
+	h2#section {
+	  padding-left: 1%;
+	  font-size: 1em
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+    aside#pos p {
+	  text-align: center;
+	  color:  #ff0000;
+	  font-size: 1.1em;
+	  font-family: Arial, Helvetica, sans-serif; 
+	}
+	aside#pos a {
+	  color: red;
+	}
+	aside#pos h2 {
+	  text-align: center;
+	  font-size: 1.1em;
+	  padding-top: 29%;
+	  color:  #ff0000;
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	p {
+	  text-align: justify;
+	}
+	img.wrapl {
+	  float: left;
+	  margin-right: 30px;
+	}
+	img.wrapr {
+	  float: right;
+	  margin-left: 2%;
+	}
+	img.wrapl:hover, img.wrapr:hover {
+	  opacity: 0.5;
+	}
+	#foot ul li {
+    display: inline;
+	}
+	#foot ul li {
+	  font-size: .8em;
+	  font-weight: 900;
+      color:  white;
+	  padding: 0 1em 1em 1em;
+	  display: inline-block;
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	#foot a {
+	color: white;
+	text-decoration: none;
+	}
+	#foot a:hover {
+	  text-decoration: underline;
+	}	  
+	
